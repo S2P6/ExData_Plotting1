@@ -1,0 +1,14 @@
+##useful functions
+## working with files
+1) setwd() working directory
+2) getwd()
+3) ls() loaded functions
+4) source(filename) - to load the R code (functions)
+
+##read data
+read.table(), read.csv(), for reading tabular data
+readLine(), for reading lines of a text ???le
+source(), for reading in R code ???les (inverse of dump)
+dget(), for reading in R code ???les (inverse of dput)
+load(), for reading in saved workspaces
+unserialize(), for reading single R objects in binary form
